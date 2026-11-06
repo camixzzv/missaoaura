@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 600px;
+  /*border: 1px solid black;*/
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6)
+}
+label {
+  display: block;
+}
+input, select, button {
+  display: block;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+}
